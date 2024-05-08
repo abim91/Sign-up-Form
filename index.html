@@ -14,8 +14,8 @@
       <img id ="bg" src="assets/background.jpg" alt="background-leaf-picture" >
       </div>
 
-      <div id = "form-sec">
-        <div>
+      <div id = "form-sec" style="width:80%; padding:0px; height: 100%;">
+        <div style="background-color: #f9fafb; width:100%; padding-left:5%; padding: 5% 5%;">
           <p><strong>
             This is not a real online service! You know you need something 
             like this in your life to help you realize your deepest dreams.
@@ -27,22 +27,19 @@
         </div>
         
         <form action='' method='get' class="create-acc-form">
+          <div style=" background-color: #ffffff; padding-top: 20px;padding-left: 05%;">
             <legend id="form-header"><h2>Let's do this!</h2></legend>
             <br>
             <div class = "from-row">
             <div >
               <label for='first-name' class = >FIRST NAME</label><br>
-              <input id='first-name' name='first-name' type='text'/>
+              <input id='first-name' name='first-name' type='text'required/>
             </div>
             <div >
               <label for='last-name'>LAST NAME</label><br>
-              <input id='last-name' name='last-name' type='text'/>
+              <input id='last-name' name='last-name' type='text'required/>
             </div>
-            </div>
-
-
-           
-
+          </div>
             <div class = "from-row">
             <div >
               <label for='user-email'>EMAIL</label><br>
@@ -50,7 +47,7 @@
             </div>
             <div >
               <label for='phone-number'>PHONE NUMBER</label><br>
-              <input id='phone-number' name='phone-number' type='number'/>
+              <input id='phone-number' name='phone-number' type='number'required/>
             </div>
             </div>
 
@@ -59,18 +56,20 @@
               <label for='password'>PASSWORD</label><br>
               <input id='password' name='password' type='text'/>
             </div>
+          <div>
             <div >
               <label for='confirm-password'>CONFIRM PASSWORD</label><br>
               <input id='confirm-password' name='confirm-password' type='text'/>
             </div>
           </div>
-
-            <div>
+          </div >
+            <div style="padding: 5% 5% 100px 0%; background-color: #f9fafb;">
               <button type="submit" class="form-submit-button">Create Account</button>
+              <div> 
+                <p><br>Already have an account?  <a href="">login</a></p>
+              </div>
             </div>
-            <div>
-              <p>Already have an account?  <span>login</span></p>
-             
+            
             </div>
         </form>
 
